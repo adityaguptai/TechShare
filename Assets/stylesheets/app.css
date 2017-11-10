@@ -1,0 +1,10 @@
+img#logo{
+  width: 20px;
+  height: 2em;
+}
+.ui.menu.inverted {
+    font-size: 1.5rem;
+}
+.segment{
+  background-color: blue;
+}

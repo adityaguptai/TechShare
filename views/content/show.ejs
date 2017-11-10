@@ -1,0 +1,68 @@
+<% include ../partials/header %>
+
+<div class="ui main container">
+  <div class="ui grid">
+  <!-- <div class="four wide column">
+    <div class="ui segment inverted ">
+      <div class="ui steps">
+        <div class="step">
+          Info
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="sixteen wide column">
+    <div class="ui segment inverted ">
+      <div class="ui header centered blue">
+        <h1><%= article.name %></h1>
+      </div>
+      <br>
+
+      <div class="ui huge rounded ">
+        <img class="ui image centered aligned" src="<%= article.imageUrl %>" alt="Image" />
+      </div>
+      <div class="ui header">
+        <h4><strong>Description:</strong><%= article.description %></h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="ui message inverted">
+  <div class="header inverted">
+    Reviews
+    <a href="/content/<%= article._id %>/comments/new" >
+      <button  class="ui inverted blue button right floated">Add Your Review</button>
+    </a>
+  </div>
+  <div class="ui feed ">
+    <% article.comments.forEach((comment) => { %>
+      <div class="event">
+        <div class="label large comment">
+          <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBXGMno3ppGVCCrJq3GH94UgAFl7uH1Z-z6gYAG5NLOttbrQej">
+        </div>
+        <div class="content">
+
+          <div class="summary">
+            <a><%= comment.author %></a>
+            <div class="date">
+              3 days ago
+            </div>
+          </div>
+          <div class="extra text grey">
+            <%= comment.text %>
+          </div>
+          <div class="meta ">
+            <a class="like">
+              <i class="like icon"></i> 5 upvotes
+            </a>
+          </div>
+        </div>
+      </div>
+  <%});%>
+</div>
+</div>
+
+
+<% include ../partials/footer %>

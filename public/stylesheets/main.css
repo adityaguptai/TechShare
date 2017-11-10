@@ -1,0 +1,66 @@
+img#logo{
+  width: 50px;
+  height: 2.8em;
+}
+.podcast .icon .ml{
+    width: 50px;
+}
+body{
+  /*background: #000000;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: black;
+}
+
+body > div.ui.main.container > div:nth-child(2) > div.ui.feed > div > div.label.large.comment{
+  width: 50px;
+}
+
+body > div.ui.main.container > div:nth-child(2) > div.ui.feed > div > div.content > div.meta > a{
+  color: red;
+}
+
+body > div.ui.main.container div.extra.text.grey{
+  color: white;
+}
+
+body > div.ui.main.container > div:nth-child(2) > div.ui.feed > div > div.content > div.summary > div{
+  color: grey;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1.2em;
+}
+input::-webkit-input-placeholder {
+color: black !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;
+}
+
+input:-ms-input-placeholder {
+color: black !important;
+}
+/*footer{
+  color: blue;
+  align-items: center;
+}*/
+/*body > div.ui.main.container > div.ui.three.column.grid > div > div > div > div.ui.large.rounded.image > img{
+
+  max-height: 200px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}*/
+div.ui.segment.inverted.content{
+  /*padding: 0px;*/
+  /*align-items: center;
+  align-self: center;
+  align-content: center;*/
+}
