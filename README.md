@@ -1,6 +1,5 @@
 # TechShare
-TechShare is a website where in user can share their tech related posts which are read by other users
-Users can view,create,like or comment on posts.
+TechShare is a website wherein user can share their tech-related posts which are read by other users Users can view, create, like or comment on posts.
 
 ## FrontEnd:
 1)HTML<br>
