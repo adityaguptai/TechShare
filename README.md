@@ -2,19 +2,19 @@
 TechShare is a website where in user can share their tech related posts which are read by other users
 Users can view,create,like or comment on posts.
 
-#FrontEnd:
-1)HTML
-2)CSS
-3)JS
-4)Semantic UI
-5)jQuery
+## FrontEnd:
+1)HTML<br>
+2)CSS<br>
+3)JS<br>
+4)Semantic UI<br>
+5)jQuery<br>
 
-#Backend
-1)NodeJS
-2)ExpressJS
-3)MongoDB
-4)EJS
-5)Passport
-6)Heroku
-7)JSON
-8)RESTful Routing
+## Backend
+1)NodeJS<br>
+2)ExpressJS<br>
+3)MongoDB<br>
+4)EJS<br>
+5)Passport<br>
+6)Heroku<br>
+7)JSON<br>
+8)RESTful Routing<br>
